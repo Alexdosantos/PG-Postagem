@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    
+}
+
+.cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    background: #6950A1; 
+    height: 92px;
+    width: 100%;
+}
+
+img {
+    width: 128px;
+    height: 38px;
+    padding-left: 98px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+}
+
+h2 {
+    width: 12px;
+    height: 48px;
+    font-family: Poppins;
+    font-size: 32px;
+    line-height: 48px;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    line-height: 48px;
+    color: white;
+
+
+}
+
+#btn {
+  
+    padding-right: 50px;
+    margin-top: 22px;
+    margin-bottom: 18px;
+    
+
+}
+
+#btn button {
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    width: 187px;
+    height: 52px;
+    font-size: 25px;
+    color: white;
+    background: #FBB04D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+#btn button:hover {
+    background-color: #f8920c;
+}
+
+
+/* Aqui começa a estilização do Modal*/
+
+
+
+.geral-modal {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+dialog {
+    
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0 auto;
+    
+    box-sizing: border-box;
+    
+    width: 773px;
+    height: 882px;
+    top: 112px;
+   
+    
+    
+   
+
+    background: #FFFFFF;
+    border: 1px solid #6950A1;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+dialog::backdrop  {
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 52px 52px;
+    margin-top: -5px;
+    
+    
+    
+}
+
+
+.btn-close {
+    display: flex;
+    justify-content: end;
+    margin-top: -10px;
+   
+}
+
+.btn-close  button {
+    width: 50px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.inputs input {
+    display: flex;
+    box-sizing: border-box;
+    width: 669px;
+    height: 48px;
+    left: 386px;
+    font-size: 25px;
+    padding: 25px;
+    font-weight: 100;
+    
+    background: #FFFFFF;
+    border: 1px solid #6950A1;
+    border-radius: 15px;
+}
+
+
+
+
+
+.titulo{
+    
+    position: absolute;
+    text-align: center;
+    padding-left: 215px;
+    margin-top: -25px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.texto-input {
+    margin-top: 50px;
+    font-family: Poppins;
+}
+    
+
+.caixa-maior input {
+
+    width: 669px;
+    height: 304px;
+    left: 386px;
+    top: 529px;
+    margin-top: 25px;
+
+    background: #FFFFFF;
+    border: 1px solid #6950A1;
+    border-radius: 15px;
+    
+
+}
+
+.caixa-maior p {
+    margin-top: 15px;
+    margin-bottom: -25px;
+    font-family: Poppins;
+    
+
+}
+
+
+
+.salvar button{
+   
+    margin-left: 109px;
+    margin-top: -190px;
+}
+
+#submit {
+    width: 563px;
+    height: 55px;
+    left: 439px;
+    top: 865px;
+    
+    background: #6950A1;
+    border-radius: 25px; 
+    border: none;
+    color: white;
+
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#submit:hover{
+    background-color: #9775e0;
+}
+
+input::placeholder {
+    font-size:20px;
+    padding: 0px;
+}
+
+
+#content{
+    background: #6950A1;
+}

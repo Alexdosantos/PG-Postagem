@@ -1,0 +1,25 @@
+{
+  "Cadastro-Usuarios": [
+    {
+      "titulo": "futebol",
+      "autor": "pelé",
+      "imagem": "https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2022/12/image2.jpeg",
+      "texto": "o rei do futebol",
+      "id": 2
+    },
+    {
+      "titulo": "fSAfdsfd",
+      "autor": "sdfsfs\\ff",
+      "imagem": "s\\dfs\\fs\\fsd\\d",
+      "texto": "sf\\sfsfs\\fsfs\\f",
+      "id": 3
+    },
+    {
+      "titulo": "ge4gesge",
+      "autor": "egergreg",
+      "imagem": "ergegegerge",
+      "texto": "egegeegegegeg",
+      "id": 4
+    }
+  ]
+}
