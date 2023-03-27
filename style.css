@@ -234,4 +234,111 @@ input::placeholder {
     padding: 0px;
 }
 
+/*AQUI COMEÇA A ESTILIZAÇÃO DO CARD DEPOSTAGEM*/
+.card-box  {
+    position: relative;
+    box-sizing: border-box;
+    width: 999px;
+    height: 284px;
+    margin-left: 18px;
+    margin-top: 28px;
+   
+    
 
+    background: #ffffff;
+    border: 1px solid #6950A1;
+    border-radius: 10px;
+}
+
+.imagem{
+    width: 401px;
+    height: 223px;
+    margin-left: -58px;
+    top: 187px;
+
+
+}
+
+.titulo-post  {
+    position: absolute;
+
+}
+
+
+.titulo-post h1 {
+    position: absolute;
+    width: 515px;
+    height: 141px;
+    left: 462px;
+    margin-top: -265px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    
+    color: #6950A1; 
+}
+
+.titulo-post p {
+    
+    display: flex;
+    position: absolute;
+    width: 515px;
+    height: 65px;
+    margin-left: 462px;
+    margin-top: -190px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #000000;
+
+}
+
+.btn-js{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -35px;
+    margin-right: 10px;
+    gap: 5px;
+}
+
+
+
+
+
+
+.btn-js #excluir{
+    width: 61px;
+    height: 26px;
+    left: 847px;
+    top: 701px;
+
+    background: #FFFFFF;
+    border: 1px solid #1E1E1E;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-js #editar {
+    width: 58px;
+    height: 26px;
+    left: 920px;
+    top: 701px;
+
+    color: white;
+    background: #6950A1;
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 6px;
+    cursor: pointer;
+}
